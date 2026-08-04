@@ -1,0 +1,34 @@
+Package: ZIBM
+Title: Zero-inflated Beta Mixture Model (ZIBM)
+Version: 0.1.0
+Authors@R: 
+    c(
+    person("Seungjun", "Ahn", email = "seungjun.ahn@mountsinai.org",
+           role = "aut"),
+    person("Quran", "Wu", email = "wuquran@ufl.edu",
+           role = "aut"),
+    person("Alicia", "Yang", email = "salicia.yang@icahn.mssm.edu",
+           role = "aut"),
+    person("Donald", "Porchia", email = "donald.porchia@ufl.edu",
+           role = "aut"), 
+    person("Weijia", "Fu", email = "weijia.fu@mountsinai.org", 
+           role = c("cre", "aut"), comment = c(ORCID = "0000-0002-4816-8924")),
+    person("Zhigang", "Li", email = "zhigang.li@ufl.edu", 
+           role = "ctb"))
+Description: An R package for mediation analysis of microbiome relative abundance data using a zero-inflated beta mixture model. The package provides functions for model fitting, parameter estimation, inference, and model selection.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+LinkingTo: 
+    Rcpp
+Imports: 
+    Rcpp,
+    foreach,
+    doParallel,
+    NlcOptim,
+    numDeriv,
+    betareg,
+    mathjaxr
+RdMacros:
+    mathjaxr
