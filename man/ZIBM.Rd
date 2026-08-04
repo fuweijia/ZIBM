@@ -84,7 +84,7 @@ res <- ZIBM(
   y_name     = "Y",
   x_name     = "X",
   conf_name  = "Z",
-  k_range    = 1:2,
+  k_range    = 1,
   num_cores  = 1
 )
 res_table <- summarize_results(ZIBM_res = res)
