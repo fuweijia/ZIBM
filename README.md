@@ -32,7 +32,7 @@ res <- ZIBM(
   y_name     = "Y",
   x_name     = "X",
   conf_name  = "Z",
-  k_range    = 1,
+  k_range    = c(1:3),
   num_cores  = 4
 )
 
